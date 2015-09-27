@@ -15,7 +15,8 @@ namespace Assignment_1_tic_tac
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainForm());
+            //Application.Run(new mainForm());
+            Application.Run(new conditionsForm());
         }
     }
 }
