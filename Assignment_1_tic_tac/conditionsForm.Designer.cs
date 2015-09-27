@@ -28,104 +28,138 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelConditionsIntroduction = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxPlayerMarker1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxPlayerMarker2 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
+            this.checkBoxPlayerStart1 = new System.Windows.Forms.CheckBox();
+            this.labelFirstMove = new System.Windows.Forms.Label();
+            this.checkBoxPlayerStart2 = new System.Windows.Forms.CheckBox();
+            this.buttonStartGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelConditionsIntroduction
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mistral", 20F);
-            this.label1.Location = new System.Drawing.Point(38, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 33);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tic Tac Toe by 61510145";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelConditionsIntroduction.AutoSize = true;
+            this.labelConditionsIntroduction.Font = new System.Drawing.Font("Mistral", 20F);
+            this.labelConditionsIntroduction.Location = new System.Drawing.Point(38, 35);
+            this.labelConditionsIntroduction.Name = "labelConditionsIntroduction";
+            this.labelConditionsIntroduction.Size = new System.Drawing.Size(223, 33);
+            this.labelConditionsIntroduction.TabIndex = 0;
+            this.labelConditionsIntroduction.Text = "Tic Tac Toe by 61510145";
+            this.labelConditionsIntroduction.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label2.Location = new System.Drawing.Point(3, 18);
+            this.label2.Location = new System.Drawing.Point(64, 105);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(150, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "Player 1 Marker :";
             // 
-            // comboBox1
+            // comboBoxPlayerMarker1
             // 
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 18;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxPlayerMarker1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.comboBoxPlayerMarker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.comboBoxPlayerMarker1.FormattingEnabled = true;
+            this.comboBoxPlayerMarker1.ItemHeight = 18;
+            this.comboBoxPlayerMarker1.Items.AddRange(new object[] {
             "X",
             "O"});
-            this.comboBox1.Location = new System.Drawing.Point(173, 16);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(44, 26);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBoxPlayerMarker1.Location = new System.Drawing.Point(214, 103);
+            this.comboBoxPlayerMarker1.Margin = new System.Windows.Forms.Padding(0);
+            this.comboBoxPlayerMarker1.Name = "comboBoxPlayerMarker1";
+            this.comboBoxPlayerMarker1.Size = new System.Drawing.Size(44, 26);
+            this.comboBoxPlayerMarker1.TabIndex = 2;
+            this.comboBoxPlayerMarker1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // comboBox2
+            // comboBoxPlayerMarker2
             // 
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.ItemHeight = 18;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxPlayerMarker2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.comboBoxPlayerMarker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.comboBoxPlayerMarker2.FormattingEnabled = true;
+            this.comboBoxPlayerMarker2.ItemHeight = 18;
+            this.comboBoxPlayerMarker2.Items.AddRange(new object[] {
             "X",
             "O"});
-            this.comboBox2.Location = new System.Drawing.Point(173, 51);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(44, 26);
-            this.comboBox2.TabIndex = 4;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.comboBoxPlayerMarker2.Location = new System.Drawing.Point(213, 141);
+            this.comboBoxPlayerMarker2.Margin = new System.Windows.Forms.Padding(0);
+            this.comboBoxPlayerMarker2.Name = "comboBoxPlayerMarker2";
+            this.comboBoxPlayerMarker2.Size = new System.Drawing.Size(44, 26);
+            this.comboBoxPlayerMarker2.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label3.Location = new System.Drawing.Point(3, 53);
+            this.label3.Location = new System.Drawing.Point(64, 143);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Player 2 Marker :";
             // 
-            // groupBox1
+            // checkBoxPlayerStart1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(44, 93);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(220, 100);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.checkBoxPlayerStart1.AutoSize = true;
+            this.checkBoxPlayerStart1.Checked = true;
+            this.checkBoxPlayerStart1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxPlayerStart1.Location = new System.Drawing.Point(44, 110);
+            this.checkBoxPlayerStart1.Name = "checkBoxPlayerStart1";
+            this.checkBoxPlayerStart1.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxPlayerStart1.TabIndex = 5;
+            this.checkBoxPlayerStart1.UseVisualStyleBackColor = true;
+            // 
+            // labelFirstMove
+            // 
+            this.labelFirstMove.AutoSize = true;
+            this.labelFirstMove.Location = new System.Drawing.Point(4, 85);
+            this.labelFirstMove.Name = "labelFirstMove";
+            this.labelFirstMove.Size = new System.Drawing.Size(55, 13);
+            this.labelFirstMove.TabIndex = 6;
+            this.labelFirstMove.Text = "First move";
+            this.labelFirstMove.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // checkBoxPlayerStart2
+            // 
+            this.checkBoxPlayerStart2.AutoSize = true;
+            this.checkBoxPlayerStart2.Location = new System.Drawing.Point(44, 148);
+            this.checkBoxPlayerStart2.Name = "checkBoxPlayerStart2";
+            this.checkBoxPlayerStart2.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxPlayerStart2.TabIndex = 7;
+            this.checkBoxPlayerStart2.UseVisualStyleBackColor = true;
+            // 
+            // buttonStartGame
+            // 
+            this.buttonStartGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.buttonStartGame.Location = new System.Drawing.Point(44, 181);
+            this.buttonStartGame.Name = "buttonStartGame";
+            this.buttonStartGame.Size = new System.Drawing.Size(214, 80);
+            this.buttonStartGame.TabIndex = 8;
+            this.buttonStartGame.Text = "SPARTA !";
+            this.buttonStartGame.UseVisualStyleBackColor = true;
             // 
             // conditionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 273);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.buttonStartGame);
+            this.Controls.Add(this.checkBoxPlayerStart2);
+            this.Controls.Add(this.labelFirstMove);
+            this.Controls.Add(this.checkBoxPlayerStart1);
+            this.Controls.Add(this.comboBoxPlayerMarker2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.comboBoxPlayerMarker1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelConditionsIntroduction);
             this.Name = "conditionsForm";
-            this.Text = "Form2";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Text = "Start A New Tic Tac Toe Game";
+            this.Load += new System.EventHandler(this.conditionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,11 +167,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelConditionsIntroduction;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxPlayerMarker1;
+        private System.Windows.Forms.ComboBox comboBoxPlayerMarker2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.CheckBox checkBoxPlayerStart1;
+        private System.Windows.Forms.Label labelFirstMove;
+        private System.Windows.Forms.CheckBox checkBoxPlayerStart2;
+        private System.Windows.Forms.Button buttonStartGame;
     }
 }

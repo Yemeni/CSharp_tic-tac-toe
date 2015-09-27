@@ -28,234 +28,234 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.coord_0_0 = new System.Windows.Forms.Button();
-            this.coord_0_1 = new System.Windows.Forms.Button();
-            this.coord_0_2 = new System.Windows.Forms.Button();
-            this.coord_1_2 = new System.Windows.Forms.Button();
-            this.coord_1_1 = new System.Windows.Forms.Button();
-            this.coord_1_0 = new System.Windows.Forms.Button();
-            this.coord_2_2 = new System.Windows.Forms.Button();
-            this.coord_2_1 = new System.Windows.Forms.Button();
-            this.coord_2_0 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonCoord_0_0 = new System.Windows.Forms.Button();
+            this.buttonCoord_0_1 = new System.Windows.Forms.Button();
+            this.buttonCoord_0_2 = new System.Windows.Forms.Button();
+            this.buttonCoord_1_2 = new System.Windows.Forms.Button();
+            this.buttonCoord_1_1 = new System.Windows.Forms.Button();
+            this.buttonCoord_1_0 = new System.Windows.Forms.Button();
+            this.buttonCoord_2_2 = new System.Windows.Forms.Button();
+            this.buttonCoord_2_1 = new System.Windows.Forms.Button();
+            this.buttonCoord_2_0 = new System.Windows.Forms.Button();
+            this.labelTurn = new System.Windows.Forms.Label();
+            this.labelPlayerTurn = new System.Windows.Forms.Label();
+            this.labelPlayerWins1 = new System.Windows.Forms.Label();
+            this.labelPlayerWins2 = new System.Windows.Forms.Label();
+            this.labelPlayerWinsCount1 = new System.Windows.Forms.Label();
+            this.labelPlayerWinsCount2 = new System.Windows.Forms.Label();
+            this.richTextBoxPlayerMovesConsole = new System.Windows.Forms.RichTextBox();
+            this.buttonResetGame = new System.Windows.Forms.Button();
+            this.buttonPlayAgain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // coord_0_0
+            // buttonCoord_0_0
             // 
-            this.coord_0_0.Location = new System.Drawing.Point(12, 12);
-            this.coord_0_0.Name = "coord_0_0";
-            this.coord_0_0.Size = new System.Drawing.Size(75, 75);
-            this.coord_0_0.TabIndex = 0;
-            this.coord_0_0.Text = "button1";
-            this.coord_0_0.UseVisualStyleBackColor = true;
+            this.buttonCoord_0_0.Location = new System.Drawing.Point(12, 12);
+            this.buttonCoord_0_0.Name = "buttonCoord_0_0";
+            this.buttonCoord_0_0.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_0_0.TabIndex = 0;
+            this.buttonCoord_0_0.Text = "button1";
+            this.buttonCoord_0_0.UseVisualStyleBackColor = true;
             // 
-            // coord_0_1
+            // buttonCoord_0_1
             // 
-            this.coord_0_1.Location = new System.Drawing.Point(93, 12);
-            this.coord_0_1.Name = "coord_0_1";
-            this.coord_0_1.Size = new System.Drawing.Size(75, 75);
-            this.coord_0_1.TabIndex = 1;
-            this.coord_0_1.Text = "button2";
-            this.coord_0_1.UseVisualStyleBackColor = true;
+            this.buttonCoord_0_1.Location = new System.Drawing.Point(93, 12);
+            this.buttonCoord_0_1.Name = "buttonCoord_0_1";
+            this.buttonCoord_0_1.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_0_1.TabIndex = 1;
+            this.buttonCoord_0_1.Text = "button2";
+            this.buttonCoord_0_1.UseVisualStyleBackColor = true;
             // 
-            // coord_0_2
+            // buttonCoord_0_2
             // 
-            this.coord_0_2.Location = new System.Drawing.Point(174, 12);
-            this.coord_0_2.Name = "coord_0_2";
-            this.coord_0_2.Size = new System.Drawing.Size(75, 75);
-            this.coord_0_2.TabIndex = 2;
-            this.coord_0_2.Text = "button3";
-            this.coord_0_2.UseVisualStyleBackColor = true;
+            this.buttonCoord_0_2.Location = new System.Drawing.Point(174, 12);
+            this.buttonCoord_0_2.Name = "buttonCoord_0_2";
+            this.buttonCoord_0_2.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_0_2.TabIndex = 2;
+            this.buttonCoord_0_2.Text = "button3";
+            this.buttonCoord_0_2.UseVisualStyleBackColor = true;
             // 
-            // coord_1_2
+            // buttonCoord_1_2
             // 
-            this.coord_1_2.Location = new System.Drawing.Point(174, 93);
-            this.coord_1_2.Name = "coord_1_2";
-            this.coord_1_2.Size = new System.Drawing.Size(75, 75);
-            this.coord_1_2.TabIndex = 5;
-            this.coord_1_2.Text = "button4";
-            this.coord_1_2.UseVisualStyleBackColor = true;
+            this.buttonCoord_1_2.Location = new System.Drawing.Point(174, 93);
+            this.buttonCoord_1_2.Name = "buttonCoord_1_2";
+            this.buttonCoord_1_2.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_1_2.TabIndex = 5;
+            this.buttonCoord_1_2.Text = "button4";
+            this.buttonCoord_1_2.UseVisualStyleBackColor = true;
             // 
-            // coord_1_1
+            // buttonCoord_1_1
             // 
-            this.coord_1_1.Location = new System.Drawing.Point(93, 93);
-            this.coord_1_1.Name = "coord_1_1";
-            this.coord_1_1.Size = new System.Drawing.Size(75, 75);
-            this.coord_1_1.TabIndex = 4;
-            this.coord_1_1.Text = "button5";
-            this.coord_1_1.UseVisualStyleBackColor = true;
+            this.buttonCoord_1_1.Location = new System.Drawing.Point(93, 93);
+            this.buttonCoord_1_1.Name = "buttonCoord_1_1";
+            this.buttonCoord_1_1.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_1_1.TabIndex = 4;
+            this.buttonCoord_1_1.Text = "button5";
+            this.buttonCoord_1_1.UseVisualStyleBackColor = true;
             // 
-            // coord_1_0
+            // buttonCoord_1_0
             // 
-            this.coord_1_0.Location = new System.Drawing.Point(12, 93);
-            this.coord_1_0.Name = "coord_1_0";
-            this.coord_1_0.Size = new System.Drawing.Size(75, 75);
-            this.coord_1_0.TabIndex = 3;
-            this.coord_1_0.Text = "button6";
-            this.coord_1_0.UseVisualStyleBackColor = true;
+            this.buttonCoord_1_0.Location = new System.Drawing.Point(12, 93);
+            this.buttonCoord_1_0.Name = "buttonCoord_1_0";
+            this.buttonCoord_1_0.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_1_0.TabIndex = 3;
+            this.buttonCoord_1_0.Text = "button6";
+            this.buttonCoord_1_0.UseVisualStyleBackColor = true;
             // 
-            // coord_2_2
+            // buttonCoord_2_2
             // 
-            this.coord_2_2.Location = new System.Drawing.Point(174, 174);
-            this.coord_2_2.Name = "coord_2_2";
-            this.coord_2_2.Size = new System.Drawing.Size(75, 75);
-            this.coord_2_2.TabIndex = 8;
-            this.coord_2_2.Text = "button7";
-            this.coord_2_2.UseVisualStyleBackColor = true;
+            this.buttonCoord_2_2.Location = new System.Drawing.Point(174, 174);
+            this.buttonCoord_2_2.Name = "buttonCoord_2_2";
+            this.buttonCoord_2_2.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_2_2.TabIndex = 8;
+            this.buttonCoord_2_2.Text = "button7";
+            this.buttonCoord_2_2.UseVisualStyleBackColor = true;
             // 
-            // coord_2_1
+            // buttonCoord_2_1
             // 
-            this.coord_2_1.Location = new System.Drawing.Point(93, 174);
-            this.coord_2_1.Name = "coord_2_1";
-            this.coord_2_1.Size = new System.Drawing.Size(75, 75);
-            this.coord_2_1.TabIndex = 7;
-            this.coord_2_1.Text = "button8";
-            this.coord_2_1.UseVisualStyleBackColor = true;
+            this.buttonCoord_2_1.Location = new System.Drawing.Point(93, 174);
+            this.buttonCoord_2_1.Name = "buttonCoord_2_1";
+            this.buttonCoord_2_1.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_2_1.TabIndex = 7;
+            this.buttonCoord_2_1.Text = "button8";
+            this.buttonCoord_2_1.UseVisualStyleBackColor = true;
             // 
-            // coord_2_0
+            // buttonCoord_2_0
             // 
-            this.coord_2_0.Location = new System.Drawing.Point(12, 174);
-            this.coord_2_0.Name = "coord_2_0";
-            this.coord_2_0.Size = new System.Drawing.Size(75, 75);
-            this.coord_2_0.TabIndex = 6;
-            this.coord_2_0.Text = "button9";
-            this.coord_2_0.UseVisualStyleBackColor = true;
+            this.buttonCoord_2_0.Location = new System.Drawing.Point(12, 174);
+            this.buttonCoord_2_0.Name = "buttonCoord_2_0";
+            this.buttonCoord_2_0.Size = new System.Drawing.Size(75, 75);
+            this.buttonCoord_2_0.TabIndex = 6;
+            this.buttonCoord_2_0.Text = "button9";
+            this.buttonCoord_2_0.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // labelTurn
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.label1.Location = new System.Drawing.Point(270, 12);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 24);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Turn :";
+            this.labelTurn.AutoSize = true;
+            this.labelTurn.BackColor = System.Drawing.SystemColors.Desktop;
+            this.labelTurn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelTurn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.labelTurn.Location = new System.Drawing.Point(270, 12);
+            this.labelTurn.Margin = new System.Windows.Forms.Padding(0);
+            this.labelTurn.Name = "labelTurn";
+            this.labelTurn.Size = new System.Drawing.Size(60, 24);
+            this.labelTurn.TabIndex = 9;
+            this.labelTurn.Text = "Turn :";
             // 
-            // label2
+            // labelPlayerTurn
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Desktop;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.label2.Location = new System.Drawing.Point(328, 12);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 24);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Player 0";
+            this.labelPlayerTurn.AutoSize = true;
+            this.labelPlayerTurn.BackColor = System.Drawing.SystemColors.Desktop;
+            this.labelPlayerTurn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelPlayerTurn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.labelPlayerTurn.Location = new System.Drawing.Point(328, 12);
+            this.labelPlayerTurn.Margin = new System.Windows.Forms.Padding(0);
+            this.labelPlayerTurn.Name = "labelPlayerTurn";
+            this.labelPlayerTurn.Size = new System.Drawing.Size(78, 24);
+            this.labelPlayerTurn.TabIndex = 10;
+            this.labelPlayerTurn.Text = "Player 0";
             // 
-            // label3
+            // labelPlayerWins1
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label3.Location = new System.Drawing.Point(271, 55);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 20);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Player 1";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.labelPlayerWins1.AutoSize = true;
+            this.labelPlayerWins1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.labelPlayerWins1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelPlayerWins1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.labelPlayerWins1.Location = new System.Drawing.Point(271, 55);
+            this.labelPlayerWins1.Margin = new System.Windows.Forms.Padding(0);
+            this.labelPlayerWins1.Name = "labelPlayerWins1";
+            this.labelPlayerWins1.Size = new System.Drawing.Size(63, 20);
+            this.labelPlayerWins1.TabIndex = 11;
+            this.labelPlayerWins1.Text = "Player 1";
+            this.labelPlayerWins1.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // labelPlayerWins2
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label4.Location = new System.Drawing.Point(332, 55);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 20);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Player 2";
+            this.labelPlayerWins2.AutoSize = true;
+            this.labelPlayerWins2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.labelPlayerWins2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelPlayerWins2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.labelPlayerWins2.Location = new System.Drawing.Point(332, 55);
+            this.labelPlayerWins2.Margin = new System.Windows.Forms.Padding(0);
+            this.labelPlayerWins2.Name = "labelPlayerWins2";
+            this.labelPlayerWins2.Size = new System.Drawing.Size(63, 20);
+            this.labelPlayerWins2.TabIndex = 12;
+            this.labelPlayerWins2.Text = "Player 2";
             // 
-            // label5
+            // labelPlayerWinsCount1
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label5.Location = new System.Drawing.Point(271, 74);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 20);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "0 wins";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.labelPlayerWinsCount1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.labelPlayerWinsCount1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelPlayerWinsCount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.labelPlayerWinsCount1.Location = new System.Drawing.Point(271, 74);
+            this.labelPlayerWinsCount1.Margin = new System.Windows.Forms.Padding(0);
+            this.labelPlayerWinsCount1.Name = "labelPlayerWinsCount1";
+            this.labelPlayerWinsCount1.Size = new System.Drawing.Size(63, 20);
+            this.labelPlayerWinsCount1.TabIndex = 13;
+            this.labelPlayerWinsCount1.Text = "0 wins";
+            this.labelPlayerWinsCount1.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label6
+            // labelPlayerWinsCount2
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label6.Location = new System.Drawing.Point(332, 74);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 20);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "0 wins";
+            this.labelPlayerWinsCount2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.labelPlayerWinsCount2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelPlayerWinsCount2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.labelPlayerWinsCount2.Location = new System.Drawing.Point(332, 74);
+            this.labelPlayerWinsCount2.Margin = new System.Windows.Forms.Padding(0);
+            this.labelPlayerWinsCount2.Name = "labelPlayerWinsCount2";
+            this.labelPlayerWinsCount2.Size = new System.Drawing.Size(63, 20);
+            this.labelPlayerWinsCount2.TabIndex = 14;
+            this.labelPlayerWinsCount2.Text = "0 wins";
             // 
-            // richTextBox1
+            // richTextBoxPlayerMovesConsole
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(271, 109);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(125, 83);
-            this.richTextBox1.TabIndex = 15;
-            this.richTextBox1.Text = "";
+            this.richTextBoxPlayerMovesConsole.Location = new System.Drawing.Point(271, 109);
+            this.richTextBoxPlayerMovesConsole.Name = "richTextBoxPlayerMovesConsole";
+            this.richTextBoxPlayerMovesConsole.Size = new System.Drawing.Size(125, 83);
+            this.richTextBoxPlayerMovesConsole.TabIndex = 15;
+            this.richTextBoxPlayerMovesConsole.Text = "";
             // 
-            // button1
+            // buttonResetGame
             // 
-            this.button1.Location = new System.Drawing.Point(270, 209);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(60, 40);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Reset Game";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonResetGame.Location = new System.Drawing.Point(270, 209);
+            this.buttonResetGame.Name = "buttonResetGame";
+            this.buttonResetGame.Size = new System.Drawing.Size(60, 40);
+            this.buttonResetGame.TabIndex = 16;
+            this.buttonResetGame.Text = "Reset Game";
+            this.buttonResetGame.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonPlayAgain
             // 
-            this.button2.Location = new System.Drawing.Point(336, 209);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(60, 40);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Play Again";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonPlayAgain.Location = new System.Drawing.Point(336, 209);
+            this.buttonPlayAgain.Name = "buttonPlayAgain";
+            this.buttonPlayAgain.Size = new System.Drawing.Size(60, 40);
+            this.buttonPlayAgain.TabIndex = 17;
+            this.buttonPlayAgain.Text = "Play Again";
+            this.buttonPlayAgain.UseVisualStyleBackColor = true;
             // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(421, 273);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.coord_2_2);
-            this.Controls.Add(this.coord_2_1);
-            this.Controls.Add(this.coord_2_0);
-            this.Controls.Add(this.coord_1_2);
-            this.Controls.Add(this.coord_1_1);
-            this.Controls.Add(this.coord_1_0);
-            this.Controls.Add(this.coord_0_2);
-            this.Controls.Add(this.coord_0_1);
-            this.Controls.Add(this.coord_0_0);
+            this.Controls.Add(this.buttonPlayAgain);
+            this.Controls.Add(this.buttonResetGame);
+            this.Controls.Add(this.richTextBoxPlayerMovesConsole);
+            this.Controls.Add(this.labelPlayerWinsCount2);
+            this.Controls.Add(this.labelPlayerWinsCount1);
+            this.Controls.Add(this.labelPlayerWins2);
+            this.Controls.Add(this.labelPlayerWins1);
+            this.Controls.Add(this.labelPlayerTurn);
+            this.Controls.Add(this.labelTurn);
+            this.Controls.Add(this.buttonCoord_2_2);
+            this.Controls.Add(this.buttonCoord_2_1);
+            this.Controls.Add(this.buttonCoord_2_0);
+            this.Controls.Add(this.buttonCoord_1_2);
+            this.Controls.Add(this.buttonCoord_1_1);
+            this.Controls.Add(this.buttonCoord_1_0);
+            this.Controls.Add(this.buttonCoord_0_2);
+            this.Controls.Add(this.buttonCoord_0_1);
+            this.Controls.Add(this.buttonCoord_0_0);
             this.Name = "mainForm";
             this.Text = "TicTacToe by Mr. 61510145";
             this.ResumeLayout(false);
@@ -265,24 +265,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Button coord_0_0;
-        private System.Windows.Forms.Button coord_0_1;
-        private System.Windows.Forms.Button coord_0_2;
-        private System.Windows.Forms.Button coord_1_2;
-        private System.Windows.Forms.Button coord_1_1;
-        private System.Windows.Forms.Button coord_1_0;
-        private System.Windows.Forms.Button coord_2_2;
-        private System.Windows.Forms.Button coord_2_1;
-        private System.Windows.Forms.Button coord_2_0;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonCoord_0_0;
+        private System.Windows.Forms.Button buttonCoord_0_1;
+        private System.Windows.Forms.Button buttonCoord_0_2;
+        private System.Windows.Forms.Button buttonCoord_1_2;
+        private System.Windows.Forms.Button buttonCoord_1_1;
+        private System.Windows.Forms.Button buttonCoord_1_0;
+        private System.Windows.Forms.Button buttonCoord_2_2;
+        private System.Windows.Forms.Button buttonCoord_2_1;
+        private System.Windows.Forms.Button buttonCoord_2_0;
+        private System.Windows.Forms.Label labelTurn;
+        private System.Windows.Forms.Label labelPlayerTurn;
+        private System.Windows.Forms.Label labelPlayerWins1;
+        private System.Windows.Forms.Label labelPlayerWins2;
+        private System.Windows.Forms.Label labelPlayerWinsCount1;
+        private System.Windows.Forms.Label labelPlayerWinsCount2;
+        private System.Windows.Forms.RichTextBox richTextBoxPlayerMovesConsole;
+        private System.Windows.Forms.Button buttonResetGame;
+        private System.Windows.Forms.Button buttonPlayAgain;
     }
 }
 
