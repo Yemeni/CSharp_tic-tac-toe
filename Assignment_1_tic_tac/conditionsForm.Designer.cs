@@ -48,7 +48,6 @@
             this.labelConditionsIntroduction.Size = new System.Drawing.Size(223, 33);
             this.labelConditionsIntroduction.TabIndex = 0;
             this.labelConditionsIntroduction.Text = "Tic Tac Toe by 61510145";
-            this.labelConditionsIntroduction.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -75,7 +74,7 @@
             this.comboBoxPlayerMarker1.Name = "comboBoxPlayerMarker1";
             this.comboBoxPlayerMarker1.Size = new System.Drawing.Size(44, 26);
             this.comboBoxPlayerMarker1.TabIndex = 2;
-            this.comboBoxPlayerMarker1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBoxPlayerMarker1.SelectedIndexChanged += new System.EventHandler(this.comboBoxPlayerMarker1_SelectedIndexChanged);
             // 
             // comboBoxPlayerMarker2
             // 
@@ -113,6 +112,7 @@
             this.checkBoxPlayerStart1.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPlayerStart1.TabIndex = 5;
             this.checkBoxPlayerStart1.UseVisualStyleBackColor = true;
+            this.checkBoxPlayerStart1.CheckedChanged += new System.EventHandler(this.checkBoxPlayerStart1_CheckedChanged);
             // 
             // labelFirstMove
             // 
@@ -122,7 +122,6 @@
             this.labelFirstMove.Size = new System.Drawing.Size(55, 13);
             this.labelFirstMove.TabIndex = 6;
             this.labelFirstMove.Text = "First move";
-            this.labelFirstMove.Click += new System.EventHandler(this.label4_Click);
             // 
             // checkBoxPlayerStart2
             // 
@@ -132,6 +131,7 @@
             this.checkBoxPlayerStart2.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPlayerStart2.TabIndex = 7;
             this.checkBoxPlayerStart2.UseVisualStyleBackColor = true;
+            this.checkBoxPlayerStart2.CheckedChanged += new System.EventHandler(this.checkBoxPlayerStart2_CheckedChanged);
             // 
             // buttonStartGame
             // 
@@ -159,7 +159,6 @@
             this.Controls.Add(this.labelConditionsIntroduction);
             this.Name = "conditionsForm";
             this.Text = "Start A New Tic Tac Toe Game";
-            this.Load += new System.EventHandler(this.conditionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
