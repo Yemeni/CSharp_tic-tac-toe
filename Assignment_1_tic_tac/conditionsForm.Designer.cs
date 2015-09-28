@@ -140,7 +140,7 @@
             this.buttonStartGame.Name = "buttonStartGame";
             this.buttonStartGame.Size = new System.Drawing.Size(214, 80);
             this.buttonStartGame.TabIndex = 8;
-            this.buttonStartGame.Text = "SPARTA !";
+            this.buttonStartGame.Text = "START !";
             this.buttonStartGame.UseVisualStyleBackColor = true;
             // 
             // conditionsForm
