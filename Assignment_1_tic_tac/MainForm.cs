@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Assignment_1_tic_tac
 {
-    public partial class mainForm : Form
+    public partial class MainForm : Form
     {
-        public mainForm()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -22,6 +22,16 @@ namespace Assignment_1_tic_tac
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCoord_0_0_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
         {
 
         }

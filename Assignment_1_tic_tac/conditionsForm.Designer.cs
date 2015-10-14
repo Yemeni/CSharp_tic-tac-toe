@@ -1,6 +1,6 @@
 ﻿namespace Assignment_1_tic_tac
 {
-    partial class conditionsForm
+    partial class ConditionsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -45,9 +45,10 @@
             this.labelConditionsIntroduction.Font = new System.Drawing.Font("Mistral", 20F);
             this.labelConditionsIntroduction.Location = new System.Drawing.Point(38, 35);
             this.labelConditionsIntroduction.Name = "labelConditionsIntroduction";
-            this.labelConditionsIntroduction.Size = new System.Drawing.Size(223, 33);
+            this.labelConditionsIntroduction.Size = new System.Drawing.Size(104, 33);
             this.labelConditionsIntroduction.TabIndex = 0;
-            this.labelConditionsIntroduction.Text = "Tic Tac Toe by 61510145";
+            this.labelConditionsIntroduction.Text = "Tic Tac Toe";
+            this.labelConditionsIntroduction.Click += new System.EventHandler(this.labelConditionsIntroduction_Click);
             // 
             // label2
             // 
@@ -90,6 +91,7 @@
             this.comboBoxPlayerMarker2.Name = "comboBoxPlayerMarker2";
             this.comboBoxPlayerMarker2.Size = new System.Drawing.Size(44, 26);
             this.comboBoxPlayerMarker2.TabIndex = 4;
+            this.comboBoxPlayerMarker2.SelectedIndexChanged += new System.EventHandler(this.comboBoxPlayerMarker2_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -142,8 +144,9 @@
             this.buttonStartGame.TabIndex = 8;
             this.buttonStartGame.Text = "START !";
             this.buttonStartGame.UseVisualStyleBackColor = true;
+            this.buttonStartGame.Click += new System.EventHandler(this.buttonStartGame_Click);
             // 
-            // conditionsForm
+            // ConditionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -157,7 +160,7 @@
             this.Controls.Add(this.comboBoxPlayerMarker1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelConditionsIntroduction);
-            this.Name = "conditionsForm";
+            this.Name = "ConditionsForm";
             this.Text = "Start A New Tic Tac Toe Game";
             this.ResumeLayout(false);
             this.PerformLayout();

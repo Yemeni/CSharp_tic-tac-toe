@@ -1,6 +1,6 @@
 ﻿namespace Assignment_1_tic_tac
 {
-    partial class mainForm
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -56,6 +56,7 @@
             this.buttonCoord_0_0.TabIndex = 0;
             this.buttonCoord_0_0.Text = "button1";
             this.buttonCoord_0_0.UseVisualStyleBackColor = true;
+            this.buttonCoord_0_0.Click += new System.EventHandler(this.buttonCoord_0_0_Click);
             // 
             // buttonCoord_0_1
             // 
@@ -233,7 +234,7 @@
             this.buttonPlayAgain.Text = "Play Again";
             this.buttonPlayAgain.UseVisualStyleBackColor = true;
             // 
-            // mainForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -256,8 +257,9 @@
             this.Controls.Add(this.buttonCoord_0_2);
             this.Controls.Add(this.buttonCoord_0_1);
             this.Controls.Add(this.buttonCoord_0_0);
-            this.Name = "mainForm";
-            this.Text = "TicTacToe by Mr. 61510145";
+            this.Name = "MainForm";
+            this.Text = "TicTacToe";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
