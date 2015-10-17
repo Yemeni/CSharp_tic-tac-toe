@@ -20,6 +20,9 @@ namespace Assignment_1_tic_tac
             ConditionsForm cForm = new ConditionsForm();
             cForm.ShowDialog();
             MainForm mForm = new MainForm();
+            mForm.setPlayerMarker1(cForm.passComboBoxPlayerMarker1);
+            mForm.setPlayerMarker2(cForm.passComboBoxPlayerMarker2);
+            mForm.setPlayerStart(cForm.passCheckBoxPlayerStart1, cForm.passCheckBoxPlayerStart1);
             mForm.ShowDialog();
 
 
@@ -27,3 +30,22 @@ namespace Assignment_1_tic_tac
         }
     }
 }
+
+
+/* 
+ * Class Condition
+ *  player 1 Marker
+ *  player 2 Marker
+ *  player 1 isStart
+ *  player 2 isStart
+ *  Player 2 isHuman
+ *  
+ * Class Game
+ *  player 1 Marker
+ *  player 2 Marker
+ *  player Start
+ *  player 1 wins
+ *  player 2 wins
+ *  player turn
+ *  Array button
+*/

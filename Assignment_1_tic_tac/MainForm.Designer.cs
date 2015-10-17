@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonCoord_0_0 = new System.Windows.Forms.Button();
-            this.buttonCoord_0_1 = new System.Windows.Forms.Button();
-            this.buttonCoord_0_2 = new System.Windows.Forms.Button();
-            this.buttonCoord_1_2 = new System.Windows.Forms.Button();
-            this.buttonCoord_1_1 = new System.Windows.Forms.Button();
-            this.buttonCoord_1_0 = new System.Windows.Forms.Button();
-            this.buttonCoord_2_2 = new System.Windows.Forms.Button();
-            this.buttonCoord_2_1 = new System.Windows.Forms.Button();
-            this.buttonCoord_2_0 = new System.Windows.Forms.Button();
+            this.buttonArray1 = new System.Windows.Forms.Button();
+            this.buttonArray2 = new System.Windows.Forms.Button();
+            this.buttonArray3 = new System.Windows.Forms.Button();
+            this.buttonArray6 = new System.Windows.Forms.Button();
+            this.buttonArray5 = new System.Windows.Forms.Button();
+            this.buttonArray4 = new System.Windows.Forms.Button();
+            this.buttonArray9 = new System.Windows.Forms.Button();
+            this.buttonArray8 = new System.Windows.Forms.Button();
+            this.buttonArray7 = new System.Windows.Forms.Button();
             this.labelTurn = new System.Windows.Forms.Label();
             this.labelPlayerTurn = new System.Windows.Forms.Label();
             this.labelPlayerWins1 = new System.Windows.Forms.Label();
@@ -48,87 +48,78 @@
             this.buttonPlayAgain = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttonCoord_0_0
+            // buttonArray1
             // 
-            this.buttonCoord_0_0.Location = new System.Drawing.Point(12, 12);
-            this.buttonCoord_0_0.Name = "buttonCoord_0_0";
-            this.buttonCoord_0_0.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_0_0.TabIndex = 0;
-            this.buttonCoord_0_0.Text = "button1";
-            this.buttonCoord_0_0.UseVisualStyleBackColor = true;
-            this.buttonCoord_0_0.Click += new System.EventHandler(this.buttonCoord_0_0_Click);
+            this.buttonArray1.Location = new System.Drawing.Point(12, 12);
+            this.buttonArray1.Name = "buttonArray1";
+            this.buttonArray1.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray1.TabIndex = 0;
+            this.buttonArray1.UseVisualStyleBackColor = true;
+            this.buttonArray1.Click += new System.EventHandler(this.buttonArray1_Click);
             // 
-            // buttonCoord_0_1
+            // buttonArray2
             // 
-            this.buttonCoord_0_1.Location = new System.Drawing.Point(93, 12);
-            this.buttonCoord_0_1.Name = "buttonCoord_0_1";
-            this.buttonCoord_0_1.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_0_1.TabIndex = 1;
-            this.buttonCoord_0_1.Text = "button2";
-            this.buttonCoord_0_1.UseVisualStyleBackColor = true;
+            this.buttonArray2.Location = new System.Drawing.Point(93, 12);
+            this.buttonArray2.Name = "buttonArray2";
+            this.buttonArray2.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray2.TabIndex = 1;
+            this.buttonArray2.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_0_2
+            // buttonArray3
             // 
-            this.buttonCoord_0_2.Location = new System.Drawing.Point(174, 12);
-            this.buttonCoord_0_2.Name = "buttonCoord_0_2";
-            this.buttonCoord_0_2.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_0_2.TabIndex = 2;
-            this.buttonCoord_0_2.Text = "button3";
-            this.buttonCoord_0_2.UseVisualStyleBackColor = true;
+            this.buttonArray3.Location = new System.Drawing.Point(174, 12);
+            this.buttonArray3.Name = "buttonArray3";
+            this.buttonArray3.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray3.TabIndex = 2;
+            this.buttonArray3.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_1_2
+            // buttonArray6
             // 
-            this.buttonCoord_1_2.Location = new System.Drawing.Point(174, 93);
-            this.buttonCoord_1_2.Name = "buttonCoord_1_2";
-            this.buttonCoord_1_2.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_1_2.TabIndex = 5;
-            this.buttonCoord_1_2.Text = "button4";
-            this.buttonCoord_1_2.UseVisualStyleBackColor = true;
+            this.buttonArray6.Location = new System.Drawing.Point(174, 93);
+            this.buttonArray6.Name = "buttonArray6";
+            this.buttonArray6.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray6.TabIndex = 5;
+            this.buttonArray6.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_1_1
+            // buttonArray5
             // 
-            this.buttonCoord_1_1.Location = new System.Drawing.Point(93, 93);
-            this.buttonCoord_1_1.Name = "buttonCoord_1_1";
-            this.buttonCoord_1_1.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_1_1.TabIndex = 4;
-            this.buttonCoord_1_1.Text = "button5";
-            this.buttonCoord_1_1.UseVisualStyleBackColor = true;
+            this.buttonArray5.Location = new System.Drawing.Point(93, 93);
+            this.buttonArray5.Name = "buttonArray5";
+            this.buttonArray5.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray5.TabIndex = 4;
+            this.buttonArray5.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_1_0
+            // buttonArray4
             // 
-            this.buttonCoord_1_0.Location = new System.Drawing.Point(12, 93);
-            this.buttonCoord_1_0.Name = "buttonCoord_1_0";
-            this.buttonCoord_1_0.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_1_0.TabIndex = 3;
-            this.buttonCoord_1_0.Text = "button6";
-            this.buttonCoord_1_0.UseVisualStyleBackColor = true;
+            this.buttonArray4.Location = new System.Drawing.Point(12, 93);
+            this.buttonArray4.Name = "buttonArray4";
+            this.buttonArray4.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray4.TabIndex = 3;
+            this.buttonArray4.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_2_2
+            // buttonArray9
             // 
-            this.buttonCoord_2_2.Location = new System.Drawing.Point(174, 174);
-            this.buttonCoord_2_2.Name = "buttonCoord_2_2";
-            this.buttonCoord_2_2.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_2_2.TabIndex = 8;
-            this.buttonCoord_2_2.Text = "button7";
-            this.buttonCoord_2_2.UseVisualStyleBackColor = true;
+            this.buttonArray9.Location = new System.Drawing.Point(174, 174);
+            this.buttonArray9.Name = "buttonArray9";
+            this.buttonArray9.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray9.TabIndex = 8;
+            this.buttonArray9.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_2_1
+            // buttonArray8
             // 
-            this.buttonCoord_2_1.Location = new System.Drawing.Point(93, 174);
-            this.buttonCoord_2_1.Name = "buttonCoord_2_1";
-            this.buttonCoord_2_1.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_2_1.TabIndex = 7;
-            this.buttonCoord_2_1.Text = "button8";
-            this.buttonCoord_2_1.UseVisualStyleBackColor = true;
+            this.buttonArray8.Location = new System.Drawing.Point(93, 174);
+            this.buttonArray8.Name = "buttonArray8";
+            this.buttonArray8.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray8.TabIndex = 7;
+            this.buttonArray8.UseVisualStyleBackColor = true;
             // 
-            // buttonCoord_2_0
+            // buttonArray7
             // 
-            this.buttonCoord_2_0.Location = new System.Drawing.Point(12, 174);
-            this.buttonCoord_2_0.Name = "buttonCoord_2_0";
-            this.buttonCoord_2_0.Size = new System.Drawing.Size(75, 75);
-            this.buttonCoord_2_0.TabIndex = 6;
-            this.buttonCoord_2_0.Text = "button9";
-            this.buttonCoord_2_0.UseVisualStyleBackColor = true;
+            this.buttonArray7.Location = new System.Drawing.Point(12, 174);
+            this.buttonArray7.Name = "buttonArray7";
+            this.buttonArray7.Size = new System.Drawing.Size(75, 75);
+            this.buttonArray7.TabIndex = 6;
+            this.buttonArray7.UseVisualStyleBackColor = true;
             // 
             // labelTurn
             // 
@@ -168,7 +159,6 @@
             this.labelPlayerWins1.Size = new System.Drawing.Size(63, 20);
             this.labelPlayerWins1.TabIndex = 11;
             this.labelPlayerWins1.Text = "Player 1";
-            this.labelPlayerWins1.Click += new System.EventHandler(this.label3_Click);
             // 
             // labelPlayerWins2
             // 
@@ -194,7 +184,6 @@
             this.labelPlayerWinsCount1.Size = new System.Drawing.Size(63, 20);
             this.labelPlayerWinsCount1.TabIndex = 13;
             this.labelPlayerWinsCount1.Text = "0 wins";
-            this.labelPlayerWinsCount1.Click += new System.EventHandler(this.label5_Click);
             // 
             // labelPlayerWinsCount2
             // 
@@ -215,6 +204,7 @@
             this.richTextBoxPlayerMovesConsole.Size = new System.Drawing.Size(125, 83);
             this.richTextBoxPlayerMovesConsole.TabIndex = 15;
             this.richTextBoxPlayerMovesConsole.Text = "";
+            this.richTextBoxPlayerMovesConsole.TextChanged += new System.EventHandler(this.richTextBoxPlayerMovesConsole_TextChanged);
             // 
             // buttonResetGame
             // 
@@ -248,15 +238,15 @@
             this.Controls.Add(this.labelPlayerWins1);
             this.Controls.Add(this.labelPlayerTurn);
             this.Controls.Add(this.labelTurn);
-            this.Controls.Add(this.buttonCoord_2_2);
-            this.Controls.Add(this.buttonCoord_2_1);
-            this.Controls.Add(this.buttonCoord_2_0);
-            this.Controls.Add(this.buttonCoord_1_2);
-            this.Controls.Add(this.buttonCoord_1_1);
-            this.Controls.Add(this.buttonCoord_1_0);
-            this.Controls.Add(this.buttonCoord_0_2);
-            this.Controls.Add(this.buttonCoord_0_1);
-            this.Controls.Add(this.buttonCoord_0_0);
+            this.Controls.Add(this.buttonArray9);
+            this.Controls.Add(this.buttonArray8);
+            this.Controls.Add(this.buttonArray7);
+            this.Controls.Add(this.buttonArray6);
+            this.Controls.Add(this.buttonArray5);
+            this.Controls.Add(this.buttonArray4);
+            this.Controls.Add(this.buttonArray3);
+            this.Controls.Add(this.buttonArray2);
+            this.Controls.Add(this.buttonArray1);
             this.Name = "MainForm";
             this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.MainForm_Load);
@@ -267,15 +257,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonCoord_0_0;
-        private System.Windows.Forms.Button buttonCoord_0_1;
-        private System.Windows.Forms.Button buttonCoord_0_2;
-        private System.Windows.Forms.Button buttonCoord_1_2;
-        private System.Windows.Forms.Button buttonCoord_1_1;
-        private System.Windows.Forms.Button buttonCoord_1_0;
-        private System.Windows.Forms.Button buttonCoord_2_2;
-        private System.Windows.Forms.Button buttonCoord_2_1;
-        private System.Windows.Forms.Button buttonCoord_2_0;
+        private System.Windows.Forms.Button buttonArray1;
+        private System.Windows.Forms.Button buttonArray2;
+        private System.Windows.Forms.Button buttonArray3;
+        private System.Windows.Forms.Button buttonArray6;
+        private System.Windows.Forms.Button buttonArray5;
+        private System.Windows.Forms.Button buttonArray4;
+        private System.Windows.Forms.Button buttonArray9;
+        private System.Windows.Forms.Button buttonArray8;
+        private System.Windows.Forms.Button buttonArray7;
         private System.Windows.Forms.Label labelTurn;
         private System.Windows.Forms.Label labelPlayerTurn;
         private System.Windows.Forms.Label labelPlayerWins1;
