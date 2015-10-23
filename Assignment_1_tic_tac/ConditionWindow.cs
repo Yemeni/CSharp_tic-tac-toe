@@ -11,9 +11,10 @@ namespace Assignment_1_tic_tac
 {
     public partial class ConditionWindow : Form
     {
-        public Player player1 = new Player("X", true);
+        // member variables
+        // create dummy data before class is created incase of null data
+        public Player player1 = new Player("X", true); 
         public Player player2 = new Player("O", false);
-
 
         public ConditionWindow()
         {
@@ -21,23 +22,23 @@ namespace Assignment_1_tic_tac
             
         }
 
-        private void buttonStartGame_Click(object sender, EventArgs e)
+        // get user inputted data from form into Player instances if valid
+        private void buttonStartGame_Click(object sender, EventArgs e) 
         {
             if ((comboBoxPlayerMarker1.SelectedIndex != comboBoxPlayerMarker2.SelectedIndex) &&
                 (checkBoxPlayerStart1 != checkBoxPlayerStart2))
             {
-
                 player1.PlayerMarker = comboBoxPlayerMarker1.Text;
                 player2.PlayerMarker = comboBoxPlayerMarker2.Text;
 
                 player1.PlayerTurn = checkBoxPlayerStart1.Checked;
                 player2.PlayerTurn = checkBoxPlayerStart2.Checked;
 
-                this.Close();
-               
+                this.Close();        
             }
         }
 
+        // functions to make sure that only one user plays first
         private void checkBoxPlayerStart1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBoxPlayerStart1.Checked)
@@ -62,6 +63,7 @@ namespace Assignment_1_tic_tac
             }
         }
 
+        // functions to make sure each player has different marker
         private void comboBoxPlayerMarker1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int playerOneIndex = comboBoxPlayerMarker1.SelectedIndex;
@@ -90,10 +92,6 @@ namespace Assignment_1_tic_tac
                 comboBoxPlayerMarker1.SelectedIndex = 0;
             }
         }
-
-
-
-
 
     }
 }

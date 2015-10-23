@@ -12,6 +12,7 @@ namespace Assignment_1_tic_tac
     public partial class GameWindow : Form
     {
         // member variables
+        // initialize instaces player1 & player2 before calling the class incase of setting them null
         public Player player1 = new Player("X", true);
         public Player player2 = new Player("O", false);
         private bool gameOver = false;
@@ -20,9 +21,11 @@ namespace Assignment_1_tic_tac
         public GameWindow()
         {
             InitializeComponent();
+            // when an instance of class is created run the condition window first
             ConditionWindow conditionWindow = new ConditionWindow();
             conditionWindow.ShowDialog();
 
+            // set local player data into recived data from user input in condition window
             this.player1.PlayerMarker = conditionWindow.player1.PlayerMarker;
             this.player1.PlayerTurn = conditionWindow.player1.PlayerTurn;
             this.player1.PlayerWins = 0;
@@ -31,11 +34,10 @@ namespace Assignment_1_tic_tac
             this.player2.PlayerTurn = conditionWindow.player2.PlayerTurn;
             this.player2.PlayerWins = 0;
 
-
-            
             richTextBoxPlayerMovesConsole.Text += "Game Started\n";
             richTextBoxPlayerMovesConsole.Text += "Player 1 Marker " + player1.PlayerMarker + "\n";
             richTextBoxPlayerMovesConsole.Text += "Player 2 Marker " + player2.PlayerMarker + "\n";
+
             if (player1.PlayerTurn)
             {
                 richTextBoxPlayerMovesConsole.Text += "Player 1 starts \n";
@@ -43,11 +45,11 @@ namespace Assignment_1_tic_tac
             else {
                 richTextBoxPlayerMovesConsole.Text += "Player 2 starts \n";
             }
-            this.ShowDialog();
+            this.ShowDialog(); // shows the game window after setting the Player instances data
 
         }
 
-        // sets all tic tac arraies to empty string
+        // sets all tic tac arraies to empty string for new game
         private void restartArray() {
             gameOver = false;
             labelPlayerWinsCount1.Text = Convert.ToString(player1.PlayerWins);
@@ -61,19 +63,15 @@ namespace Assignment_1_tic_tac
             buttonArray7.Text = "";
             buttonArray8.Text = "";
             buttonArray9.Text = "";
-
-
-
         }
 
         // start a new game
         private void buttonResetGame_Click(object sender, EventArgs e)
         {
             Application.Restart();
-            
         }
 
-        // play again with out changing wins
+        // play again with out changing current wins
         private void buttonPlayAgain_Click(object sender, EventArgs e)
         {
             restartArray();
@@ -82,15 +80,13 @@ namespace Assignment_1_tic_tac
             richTextBoxPlayerMovesConsole.SelectionStart = richTextBoxPlayerMovesConsole.TextLength;
             //scroll to the caret
             richTextBoxPlayerMovesConsole.ScrollToCaret();
-
-
         }
 
         private void richTextBoxPlayerMovesConsole_TextChanged(object sender, EventArgs e)
         {
         }
 
-        // check winning condition to which player
+        // check winning condition if met and to which player is the winning condition
         private void checkWinner() {
             if (
                 buttonArray1.Text != "" && buttonArray1.Text == buttonArray2.Text && buttonArray2.Text == buttonArray3.Text ||
@@ -125,7 +121,7 @@ namespace Assignment_1_tic_tac
             richTextBoxPlayerMovesConsole.ScrollToCaret();
         }
 
-        // check what happens when button is clicked and return the clickers Marker if valid
+        // check what happens when button is clicked on tic tac array and return the clickers Marker if valid
         private string buttonClick()
         {
             if (player1.PlayerTurn && !gameOver)
@@ -145,7 +141,7 @@ namespace Assignment_1_tic_tac
             return "";
         }
 
-        // 
+        // tic tac toe button array buttons
         private void buttonArray1_Click(object sender, EventArgs e)
         {
             if (this.buttonArray1.Text == "")
@@ -226,7 +222,6 @@ namespace Assignment_1_tic_tac
             }
             checkWinner();
         }
-
-        
+      
     }
 }
