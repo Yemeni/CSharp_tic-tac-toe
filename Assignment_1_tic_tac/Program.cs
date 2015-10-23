@@ -5,27 +5,17 @@ using System.Windows.Forms;
 
 namespace Assignment_1_tic_tac
 {
+
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new mainForm());
-            //Application.Run(new ConditionsForm());
-            ConditionsForm cForm = new ConditionsForm();
-            cForm.ShowDialog();
-            MainForm mForm = new MainForm();
-            mForm.setPlayerMarker1(cForm.passComboBoxPlayerMarker1);
-            mForm.setPlayerMarker2(cForm.passComboBoxPlayerMarker2);
-            mForm.setPlayerStart(cForm.passCheckBoxPlayerStart1, cForm.passCheckBoxPlayerStart1);
-            mForm.ShowDialog();
-
-
+            
+            GameWindow gameWindow = new GameWindow();     
 
         }
     }
